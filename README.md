@@ -32,7 +32,11 @@ To customize the testing and training parameters, modify the following variables
 - `train_steps`: Number of timesteps for training.
 - `rl_algs`: List of RL algorithms to test.
 
-Run the script to execute the tests and generate visualizations for each algorithm.
+Run the script to execute the tests and generate visualizations for each algorithm. To run this script, navigate to the repository on your local machine and run the following command:
+
+```bash
+python3 main.py
+```
 
 ## Results
 
