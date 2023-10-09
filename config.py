@@ -36,7 +36,7 @@ colors = ['b', 'g', 'r', 'c', 'm', 'y', 'k']
 #############################
 
 env_name    = "LunarLander-v2"     # Name of the Environment to Run
-train_steps = 500_000              # Number of Timesteps for Learning
+train_steps = 200_000              # Number of Timesteps for Learning
 
 # RL Algorithms for Testing
 rl_algs = [A2C, DQN, PPO, TRPO]
