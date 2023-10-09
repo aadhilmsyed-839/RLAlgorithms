@@ -24,19 +24,19 @@ import matplotlib.pyplot as plt
 # NON-CHANGEABLE PARAMETERS
 #############################
 
-global test_num = 1                       # Tracks the Test # of Current Iteration
-global results_dict = {}                  # Stores the Result for each Algorithm
-global it = 0                             # Iterator for the colors list
+test_num = 1                       # Tracks the Test # of Current Iteration
+results_dict = {}                  # Stores the Result for each Algorithm
+it = 0                             # Iterator for the colors list
 
 # Colors for creating data visuals
-global colors = ['b', 'g', 'r', 'c', 'm', 'y', 'k']
+colors = ['b', 'g', 'r', 'c', 'm', 'y', 'k']
 
 #############################
 # CHANGEABLE PARAMETERS
 #############################
 
-global env_name    = "LunarLander-v2"     # Name of the Environment to Run
-global train_steps = 500_000              # Number of Timesteps for Learning
+env_name    = "LunarLander-v2"     # Name of the Environment to Run
+train_steps = 500_000              # Number of Timesteps for Learning
 
 # RL Algorithms for Testing
-global rl_algs = [A2C, DQN, PPO, TRPO]
+rl_algs = [A2C, DQN, PPO, TRPO]

@@ -1,5 +1,8 @@
 from config import *
 
+# Define Global Variables
+global test_num, results_dict, it, colors, env_name, train_steps, rl_algs
+
 def generate_results():
 
     """

@@ -2,6 +2,9 @@ from config import *
 from test_algorithm import *
 from results import *
 
+# Define Global Variables
+global test_num, results_dict, it, colors, env_name, train_steps, rl_algs
+
 # Start Test Counter & Start the Program Timer
 prog_start = time.time()
 

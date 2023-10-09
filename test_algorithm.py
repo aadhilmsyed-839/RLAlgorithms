@@ -1,4 +1,7 @@
-from imports import *
+from config import *
+
+# Define Global Variables
+global test_num, results_dict, it, colors, env_name, train_steps, rl_algs
 
 def test_algorithm(alg: Type['abc.ABCMeta'], env_name : str, timesteps : int):
 
