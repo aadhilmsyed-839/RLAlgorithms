@@ -58,6 +58,3 @@ This code is provided under the [MIT License](LICENSE).
 Feel free to modify and extend this code for your specific RL experiments and analysis.
 
 For more information about Stable Baselines3 and Gymnasium, please refer to their respective GitHub repositories linked above.
-```
-
-You can copy the entire content above and save it as a README.md file in your GitHub repository.
