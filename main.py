@@ -40,14 +40,9 @@ for alg in rl_algs:
 # Stop the Program Timer
 tot_time = time.time() - prog_start
 
-# Print the Results Dictionary HEADER
-print("\n=============================================")
-print("                Final Results                ")
-print("=============================================\n")
-
 # Get the Generated Results & Export the Plot as an Image
 plot = generate_results()
-plot.savefig('images/rl_algs.png', dpi=300, bbox_inches='tight')
+plot.savefig(f'{env_name}/plots/rl_algs.png', dpi=300, bbox_inches='tight')
 
 # Print the Termination Message
 print("\n=============================================")
